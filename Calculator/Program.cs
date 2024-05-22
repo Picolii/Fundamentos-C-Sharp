@@ -22,6 +22,8 @@ namespace Calculator
             Console.WriteLine(" 2 - Subtração");
             Console.WriteLine(" 3 - Divisão");
             Console.WriteLine(" 4 - Multiplicação");
+            Console.WriteLine("");
+            Console.WriteLine(" 5 - Sair");
 
             Console.WriteLine("+------------------------------+");
 
@@ -34,10 +36,10 @@ namespace Calculator
                 case 2: Subtracao(); break;
                 case 3: Divisao(); break;
                 case 4: Multiplicacao(); break;
+                case 5: System.Environment.Exit(0); break;
                 default: Menu(); break;
             }
         }
-
         static void Soma()
         {
             Console.Clear();
@@ -114,5 +116,6 @@ namespace Calculator
             Console.ReadKey();
             Menu();
         }
+
     }
 }
