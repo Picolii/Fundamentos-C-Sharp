@@ -53,7 +53,7 @@ namespace BetterSimpleCalculator
         static void DesenhoCalculadora()
         {
             Console.WriteLine("╔═══════════════════════╗╔═══╦═══╦═══╦═══╗");
-            Console.WriteLine("║   Casio FX-991LACW    ║║ 7 ║ 8 ║ 9 ║ / ║");
+            Console.WriteLine("║        HP-12C         ║║ 7 ║ 8 ║ 9 ║ / ║");
             Console.WriteLine("╠═══════════════════════╣╠═══╬═══╬═══╬═══╣");
             Console.WriteLine("║ Entrada:              ║║ 4 ║ 5 ║ 6 ║ * ║");
             Console.WriteLine("║                       ║╠═══╬═══╬═══╬═══╣");
