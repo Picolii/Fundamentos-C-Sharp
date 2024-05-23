@@ -1,12 +1,11 @@
-﻿using System;
-
+﻿
 namespace StopWatch
 {
     class Program
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("");
+            StartChronometer();
         }
 
         static void StartChronometer()
@@ -16,7 +15,10 @@ namespace StopWatch
 
             while (currentTime != time)
             {
+                Console.Clear();
                 currentTime++;
+                Console.WriteLine(currentTime);
+                Thread.Sleep(1000);
             }
         }
     }
