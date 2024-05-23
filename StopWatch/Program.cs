@@ -6,7 +6,6 @@ namespace StopWatch
         static void Main(string[] args)
         {
             Menu();
-            // StartChronometer(6);
         }
 
         static void Menu()
@@ -19,7 +18,7 @@ namespace StopWatch
 
             Console.WriteLine("");
 
-            Console.WriteLine("0 = Exit");
+            Console.WriteLine("0e = Exit");
             Console.WriteLine("+-----------------------------------+");
             Console.WriteLine("How long do you want to count?");
 
@@ -31,7 +30,20 @@ namespace StopWatch
             if (type == 'm') multiplier = 60;
             if (time == 0) System.Environment.Exit(0);
 
-            StartChronometer(time * multiplier);
+            PreStart(time * multiplier);
+        }
+
+        static void PreStart(int time)
+        {
+            Console.Clear();
+            Console.WriteLine("Ready...");
+            Thread.Sleep(1000);
+            Console.WriteLine("Set...");
+            Thread.Sleep(1000);
+            Console.WriteLine("Go...");
+            Thread.Sleep(2000);
+
+            StartChronometer(time);
         }
 
         static void StartChronometer(int time)
@@ -47,8 +59,13 @@ namespace StopWatch
             }
 
             Console.Clear();
-            Console.WriteLine();
+            Console.WriteLine("StopWatch finalized...");
             Thread.Sleep(1500);
+            Console.WriteLine("Press any key to restart...");
+            Thread.Sleep(1500);
+            Console.ReadKey();
+            Menu();
+
         }
     }
 
