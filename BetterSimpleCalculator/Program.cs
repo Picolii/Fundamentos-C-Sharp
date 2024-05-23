@@ -5,7 +5,7 @@ using System.Text.RegularExpressions;
 
 namespace BetterSimpleCalculator
 {
-    class BetterCalculator
+    class Program
     {
         static void Main(string[] args)
         {

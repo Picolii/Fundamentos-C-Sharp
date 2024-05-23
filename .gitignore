@@ -1,0 +1,49 @@
+# Build Folders (bin, obj)
+bin/
+obj/
+
+# VS Code directories
+.vscode/
+.vscode/**
+
+# User-specific files
+*.rsuser
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Auto-generated files
+Generated\ Files/
+
+# Windows image file caches
+Thumbs.db
+ehthumbs.db
+
+# Folder config file
+Desktop.ini
+
+# Recycle Bin used on file shares
+$RECYCLE.BIN/
+
+# Logs
+*.log
+
+# Exclude all .NET generated files
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+# ASP.NET Scaffolding
+ScaffoldingReadMe.txt
+
+# Rider directories
+.idea/
+.idea/**
+
+# Other IDEs and Text Editors
+*.swp
+*.*~
+.project
+.idea
+.DS_Store
