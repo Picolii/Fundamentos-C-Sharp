@@ -1,8 +1,8 @@
-# Build Folders (bin, obj)
+# Ignore build output directories
 bin/
 obj/
 
-# VS Code directories
+# Ignore Visual Studio Code settings
 .vscode/
 .vscode/**
 
@@ -47,3 +47,45 @@ ScaffoldingReadMe.txt
 .project
 .idea
 .DS_Store
+
+# Ignore compiled assemblies
+*.dll
+*.exe
+*.so
+*.dylib
+*.class
+
+# Ignore the build files
+*.pdb
+*.cache
+*.ilk
+*.meta
+*.obj
+*.pyc
+*.pyo
+*.rsp
+
+# Ignore the coverage files
+*.coverage
+*.coveragexml
+
+# Ignore publish files
+*.publishsettings
+.publish/
+
+# Ignore SQL Server files
+*.mdf
+*.ldf
+
+# Ignore node.js build files
+node_modules/
+dist/
+
+# Ignore npm files
+npm-debug.log
+yarn-error.log
+yarn-debug.log
+
+# Ignore NuGet packages
+*.nupkg
+*.snupkg
