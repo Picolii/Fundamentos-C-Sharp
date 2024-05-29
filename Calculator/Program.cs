@@ -7,31 +7,31 @@ namespace Calculator
     {
         static void Main(string[] args)
         {
-            Calculadora();
+            Calculator();
         }
 
-        static void Calculadora()
+        static void Calculator()
         {
             Console.Clear();
 
             Console.WriteLine("+------------------------------+");
 
-            Console.WriteLine(" O que deseja fazer?");
+            Console.WriteLine(" What do you want to do?");
             Console.WriteLine("");
 
-            Console.WriteLine(" 1 - Soma");
-            Console.WriteLine(" 2 - Subtração");
-            Console.WriteLine(" 3 - Divisão");
-            Console.WriteLine(" 4 - Multiplicação");
+            Console.WriteLine(" 1 - Sum");
+            Console.WriteLine(" 2 - Subtraction");
+            Console.WriteLine(" 3 - Division");
+            Console.WriteLine(" 4 - Multiplication");
             Console.WriteLine("");
             Console.WriteLine(" 5 - Sair");
 
             Console.WriteLine("+------------------------------+");
 
-            Console.WriteLine("Selecione uma opção: ");
-            short opcao = short.Parse(Console.ReadLine());
+            Console.WriteLine("Select an option: ");
+            short option = short.Parse(Console.ReadLine());
 
-            if (opcao == 5)
+            if (option == 5)
             {
                 System.Environment.Exit(0);
             }
@@ -39,28 +39,28 @@ namespace Calculator
             Console.Clear();
 
             Console.WriteLine("+------------------------------+");
-            Console.Write("Primeiro Valor: ");
-            float valor1 = float.Parse(Console.ReadLine());
+            Console.Write("First Value: ");
+            float value1 = float.Parse(Console.ReadLine());
 
-            Console.Write("Segundo Valor: ");
-            float valor2 = float.Parse(Console.ReadLine());
-            float resultado = 0;
+            Console.Write("Second Value: ");
+            float value2 = float.Parse(Console.ReadLine());
+            float result = 0;
 
-            switch (opcao)
+            switch (option)
             {
 
-                case 1: resultado = valor1 + valor2; break;
-                case 2: resultado = valor1 - valor2; break;
-                case 3: resultado = valor1 / valor2; break;
-                case 4: resultado = valor1 * valor2; break;
-                default: Calculadora(); break;
+                case 1: result = value1 + value2; break;
+                case 2: result = value1 - value2; break;
+                case 3: result = value1 / value2; break;
+                case 4: result = value1 * value2; break;
+                default: Calculator(); break;
             }
 
             Console.WriteLine("");
-            Console.WriteLine($"O resultado da operação é: {resultado}");
+            Console.WriteLine($"The operation result is: {result}");
 
             Console.ReadKey();
-            Calculadora();
+            Calculator();
         }
     }
 }
