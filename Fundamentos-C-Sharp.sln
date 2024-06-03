@@ -11,6 +11,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TextEditor", "TextEditor\Te
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BetterCalculator", "BetterCalculator\BetterCalculator.csproj", "{DDAC6971-C267-41B7-9F61-010C8AFABE7E}"
 EndProject
+Project("{57DCE147-5A9C-4296-A0D4-FD8C51B6DD55}") = "HtmlEditor", "HtmlEditor\HtmlEditor.csproj", "{57DCE147-5A9C-4296-A0D4-FD8C51B6DD55}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{DDAC6971-C267-41B7-9F61-010C8AFABE7E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DDAC6971-C267-41B7-9F61-010C8AFABE7E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DDAC6971-C267-41B7-9F61-010C8AFABE7E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{57DCE147-5A9C-4296-A0D4-FD8C51B6DD55}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{57DCE147-5A9C-4296-A0D4-FD8C51B6DD55}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{57DCE147-5A9C-4296-A0D4-FD8C51B6DD55}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{57DCE147-5A9C-4296-A0D4-FD8C51B6DD55}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
