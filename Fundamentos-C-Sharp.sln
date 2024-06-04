@@ -21,6 +21,8 @@ Project("{2479F8F7-457B-4155-8679-F130DA394A54}") = "GuidGenerator", "GuidGenera
 EndProject
 Project("{D59090EA-4130-4276-B36E-BC8866B58379}") = "WorkingWithArrays", "WorkingWithArrays\WorkingWithArrays.csproj", "{D59090EA-4130-4276-B36E-BC8866B58379}"
 EndProject
+Project("{2B4E5B73-C6A0-4ED0-A94C-F4C3398EF949}") = "WorkingWithExceptions", "WorkingWithExceptions\WorkingWithExceptions.csproj", "{2B4E5B73-C6A0-4ED0-A94C-F4C3398EF949}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -63,6 +65,10 @@ Global
 		{D59090EA-4130-4276-B36E-BC8866B58379}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D59090EA-4130-4276-B36E-BC8866B58379}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D59090EA-4130-4276-B36E-BC8866B58379}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2B4E5B73-C6A0-4ED0-A94C-F4C3398EF949}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2B4E5B73-C6A0-4ED0-A94C-F4C3398EF949}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2B4E5B73-C6A0-4ED0-A94C-F4C3398EF949}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2B4E5B73-C6A0-4ED0-A94C-F4C3398EF949}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
