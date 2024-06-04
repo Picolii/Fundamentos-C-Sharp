@@ -4,8 +4,7 @@
     {
         static void Main(string[] args)
         {
-            Console.Clear();
-
+            Menu.Option();
         }
     }
 }
