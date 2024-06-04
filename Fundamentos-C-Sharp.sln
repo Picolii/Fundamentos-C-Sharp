@@ -17,6 +17,8 @@ Project("{89C374DD-1593-4560-B67A-7F7E8882D20D}") = "WorkingWithDate", "WorkingW
 EndProject
 Project("{D28596A1-323C-4D57-94E5-7200D67F52EE}") = "WorkingWithNumbers", "WorkingWithNumbers\WorkingWithNumbers.csproj", "{D28596A1-323C-4D57-94E5-7200D67F52EE}"
 EndProject
+Project("{2479F8F7-457B-4155-8679-F130DA394A54}") = "GuidGenerator", "GuidGenerator\GuidGenerator.csproj", "{2479F8F7-457B-4155-8679-F130DA394A54}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -51,6 +53,10 @@ Global
 		{D28596A1-323C-4D57-94E5-7200D67F52EE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D28596A1-323C-4D57-94E5-7200D67F52EE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D28596A1-323C-4D57-94E5-7200D67F52EE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2479F8F7-457B-4155-8679-F130DA394A54}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2479F8F7-457B-4155-8679-F130DA394A54}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2479F8F7-457B-4155-8679-F130DA394A54}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2479F8F7-457B-4155-8679-F130DA394A54}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
