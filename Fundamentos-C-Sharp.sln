@@ -15,6 +15,8 @@ Project("{57DCE147-5A9C-4296-A0D4-FD8C51B6DD55}") = "HtmlEditor", "HtmlEditor\Ht
 EndProject
 Project("{89C374DD-1593-4560-B67A-7F7E8882D20D}") = "WorkingWithDate", "WorkingWithDate\WorkingWithDate.csproj", "{89C374DD-1593-4560-B67A-7F7E8882D20D}"
 EndProject
+Project("{D28596A1-323C-4D57-94E5-7200D67F52EE}") = "WorkingWithNumbers", "WorkingWithNumbers\WorkingWithNumbers.csproj", "{D28596A1-323C-4D57-94E5-7200D67F52EE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -45,6 +47,10 @@ Global
 		{89C374DD-1593-4560-B67A-7F7E8882D20D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{89C374DD-1593-4560-B67A-7F7E8882D20D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{89C374DD-1593-4560-B67A-7F7E8882D20D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D28596A1-323C-4D57-94E5-7200D67F52EE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D28596A1-323C-4D57-94E5-7200D67F52EE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D28596A1-323C-4D57-94E5-7200D67F52EE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D28596A1-323C-4D57-94E5-7200D67F52EE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
